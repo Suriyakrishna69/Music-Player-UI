@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2 Song Music Player</title>
+    <link rel="stylesheet" href="Music player ui pop.css">
+    <audio src="Michael_Jackson_-_Billie_Jean_This_is_it_2009_(mp3.pm).mp3"> controls </audio>
+</head>
+<body>
+
+<div class="player">
+    <div class="cover">
+        <img id="cover" src="nera.jpeg">
+    </div>
+
+    <div class="details">
+        <h2 id="title">NERA</h2>
+        <p id="artist">ARJN, KDS, and RONN</p>
+    </div>
+
+    <audio id="mi"></audio>
+
+    <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress" value="0">
+        <span id="duration">6:37</span>
+    </div>
+
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
